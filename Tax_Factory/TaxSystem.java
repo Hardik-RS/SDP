@@ -27,7 +27,7 @@ public class TaxSystem {
 
         System.out.println("Property Tax to Pay for city No " + no + " : " + calculatedTax);
 
-        System.out.println("Paid property tax : " + tax.payTax(calculatedTax));
+        System.out.println("Paid property taxs : " + tax.payTax(calculatedTax));
 
         sc.close();
     }
